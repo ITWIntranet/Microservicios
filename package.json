@@ -1,0 +1,30 @@
+{
+  "name": "microservicios",
+  "version": "1.0.0",
+  "description": "Servidor de microservicios para Intranet",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js",
+    "test": "http-server ./server/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "microservicios"
+  },
+  "author": "jesus.calero@itw.mx",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^5.0.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "nodemon": "^1.18.9"
+  }
+}
+
